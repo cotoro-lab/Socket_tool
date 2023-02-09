@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "OcpwHvJtRE93Jd70VNBsIm8/NAWvR0RK2HgfHRBHlG0SX/i7b+3P+Z/D2XvYWX3WUtsirPeLZszEw22UkA0C5Q==",
+  "dgSpecHash": "qSqZ6E7oyHzsT0nkdh+yllv9wequMVR0V1SYISeiDVsQ35O8qj9Z0co/GvPNeykRIpuyvfRtY98jYlHbBo0kzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\socket_server.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tokyo-study048\\desktop\\uto_wk\\src\\socket_tool\\socket_server\\socket_server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\tokyo-study048\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

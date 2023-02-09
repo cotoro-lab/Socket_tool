@@ -3,6 +3,7 @@ using System.Text;
 using System.Net;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
+using Microsoft.Extensions.Configuration;
 
 namespace socket_server
 {
@@ -11,9 +12,23 @@ namespace socket_server
     {
         static void Main()
         {
+            // jsonの読み込み
+            IConfigurationBuilder server_info = new ConfigurationBuilder();
+            server_info.SetBasePath(Directory.GetCurrentDirectory());
+            server_info.AddJsonFile("server_setting.json", true, true);
+            IConfiguration configuration = server_info.Build();
+
+            // jsonから値を取得
+            IConfigurationSection section = configuration.GetSection("ServerSettingInfo");
+            string ip = section["ip"];
+            string port = section["port"];
+
+            Console.WriteLine("ip:" + ip);
+            Console.WriteLine("port:" + port);
+
             // サーバーのIPアドレスとポート番号をセット
-            IPAddress host1 = IPAddress.Parse("127.0.0.1");
-            int port1 = 8765;
+            IPAddress host1 = IPAddress.Parse(ip);
+            int port1 = Int32.Parse(port);
             IPEndPoint ipe1 = new IPEndPoint(host1, port1);
 
             TcpListener server = null;
@@ -53,10 +68,12 @@ namespace socket_server
                                 try
                                 {
                                     // クライアントから受け取った数字を判定して返す文字列セット
+                                    sendline = "";
                                     num = int.Parse(recvline);
                                     if(num % 2 == 0)
                                     {
-                                        sendline = "OKです。";
+                                        double wknum = Math.Pow(num,32);
+                                        sendline = "OKです。" + "因みに" + num.ToString() + "の32乗は、「" + wknum.ToString() + "」です。";
                                     }
                                     else
                                     {
