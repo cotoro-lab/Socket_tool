@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCK2qJ9c49cl7thhy5KAWpvkbbOryFEfpMgcMBC5sIK18uH6vNc+wnpUlpM7X0XpSwu63F1rZO8zufL6GwRe7A==",
+  "dgSpecHash": "KWkjI2A8KpJYaqL6zJHz2FiaJ0u3jHVbOnuFc7HZwwvWPG6/bZ5Ylx8NdVri/f6TlHFvHn7+cncHlNr2SB4zvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\socket_client\\socket_client.csproj",
+  "projectFilePath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_client\\socket_client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

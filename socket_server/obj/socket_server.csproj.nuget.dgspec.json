@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server.csproj": {}
+    "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\socket_server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server.csproj": {
+    "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\socket_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server.csproj",
+        "projectUniqueName": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\socket_server.csproj",
         "projectName": "socket_server",
-        "projectPath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server.csproj",
+        "projectPath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\socket_server.csproj",
         "packagesPath": "C:\\Users\\tokyo-study048\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\obj\\",
+        "outputPath": "C:\\Users\\tokyo-study048\\Desktop\\uto_wk\\src\\Socket_tool\\socket_server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tokyo-study048\\AppData\\Roaming\\NuGet\\NuGet.Config",

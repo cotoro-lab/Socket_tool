@@ -38,20 +38,18 @@ namespace socket_client
                             // サーバから受信
                             stream.Read(buf2, 0, buf2.Length);
                             Console.WriteLine(reg.Replace(Encoding.UTF8.GetString(buf2), ""));
-
                         }
 
                     }
                 }
-
-
             }
-            catch
+            catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             finally
             {
+                Console.WriteLine("クライアント側終了です。");
 
             }
         }
