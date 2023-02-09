@@ -10,7 +10,7 @@ namespace socket_client
     {
         static void Main()
         {
-            IPAddress host1 = IPAddress.Parse("172.0.0.1");
+            IPAddress host1 = IPAddress.Parse("127.0.0.1");
             int port1 = 8765;
             IPEndPoint ipe1 = new IPEndPoint(host1, port1);
             string line = "";
